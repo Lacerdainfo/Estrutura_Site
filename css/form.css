@@ -1,0 +1,55 @@
+#formulario input[type="text"]{
+    background: rgb(4, 245, 8);
+    color:black;   
+     text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    text-indent: 10px;
+    outline: none;
+    
+}
+/*mudar cor ao clicar no formulario*/
+#formulario input[type="text"]:focus{
+
+background: rgb(197, 245, 4);
+color:red;
+}
+#formulario select {
+    background: rgb(4, 245, 8);
+    color:black;   
+     text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    text-indent: 10px;
+    outline: none;
+     height: 35px;
+     width:190px;
+     line-height: 38px;
+    
+}
+#formulario select option{
+
+    background: rgb(197, 245, 4);
+    color:red;
+}
+#formulario input[type="submit"]{
+    background: rgb(197, 245, 4);
+    color:black;   
+     text-transform: uppercase;
+    border-radius: 8px;
+    text-indent: 10px;
+    font-size: 13px;
+    height: 25px;
+    width:120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    border-color: rgb(170, 239, 33);
+ 
+}
+#formulario input[type="submit"]:hover{
+    background: rgb(245, 189, 4);
+}
+#formulario fieldset{
+    width:550px;
+    height:auto;
+}

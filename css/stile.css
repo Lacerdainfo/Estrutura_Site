@@ -1,0 +1,182 @@
+
+#geral{
+    margin-left: 20px;
+    margin-right:20px ;
+}
+#geral #title{
+    background: blueviolet;
+    margin: 0px;
+   padding-top: 10px;
+   padding-bottom: 0px;  
+   height: 150px;
+}
+#geral #title h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#geral #title #imagem img {
+   
+    width: 15%;
+    position: relative;
+    left: 50px;
+    bottom: 105px;
+    opacity: 0.8;
+}
+p{
+    color:blue;
+    font-size: 20px; 
+   }
+
+#lista{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(8, 8, 8);
+            background: rgb(194, 241, 209);
+
+}
+#geral #Formul {
+color: rgb(255, 128, 0);
+padding-block-end: 10px;
+width: 50px;
+
+}
+#geral #Formul #botao {
+    position: relative;
+    top: 10px;
+    padding-block-end: 10px;
+
+}
+
+#geral #Timecoração{
+   
+    color: rgb(16, 15, 15);
+    padding-block-end: 10px;
+
+}
+#geral #Timecoração form{
+    background: rgb(20, 167, 220);
+
+}
+#geral #Timecoração #salvar{
+    position: relative;
+    top: 10px;
+    padding-block-end: 10px;
+
+}
+
+
+
+#tabela{
+    margin-left: 40px;
+   
+}
+ #tabela #img2 img{
+    margin-top: 15px;
+    height: 120px;
+    width: 900px;
+    float: left;
+   
+}
+ #tabela #img3 img{
+    position:absolute;
+    height:175px;
+    width: 400px;
+    top: 153px;
+    left:930px;
+    margin-left: 20px;
+    margin-right:20px ;
+}
+#container{
+    width:313px;
+    height:162px;
+    margin-right: 15px;
+    float:left;
+    color: brown;
+    
+}
+/* Inicio estilo da pagina SERVICOS*/
+body{
+    margin: 0px;
+}
+#menu_container {
+    width: 100%;
+    background: rgb(96, 190, 2);
+    height: 50px;
+    color: aliceblue;
+    
+
+}
+#menu_container #menu{
+    width: 990px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 0 auto;
+}
+#menu_container #menu ul{
+    font-family: fantasy;
+    margin: auto;
+    list-style-type: none;
+    font-size: 16px;
+}
+/* Posicionar itens na vertical*/
+#menu_container #menu ul li{
+    float: left;
+    position: relative;
+
+}
+#menu_container #menu ul li:hover{
+    background: rgb(174, 164, 223);
+    color: rgb(9, 92, 21);
+}
+#menu_container #menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    width: auto;
+    display: block;
+    line-height: 50px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+/*efeito ao passar o mouse*/
+#menu_container #menu ul li a:hover{
+    background: rgb(174, 164, 223);
+    color: rgb(9, 92, 21);
+}/*Fim da pagina SERVICOS*/
+
+/* Submenus pagina Serviços*/
+#menu_container #menu ul li ul{
+    line-height: 50px;
+    height: 50px;
+    display: none;
+    float: left;
+    width: 150px;
+    position: absolute;
+    left: -40px;
+}
+#menu_container #menu ul li:hover ul {
+
+   
+    color: rgb(9, 92, 21);
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    float: left;
+    width: 150px;
+}
+
+#menu_container #menu ul li ul li a{
+    background: rgb(174, 164, 223);
+    color: rgb(9, 92, 21);
+    line-height: 50px;
+    height: 50px;
+    margin: 0;
+    
+    width: 150px;
+}
+#menu_container #menu ul li ul :hover a {
+    background: rgb(202, 232, 10);
+    color: rgb(12, 12, 12);
+}
+/*fim*/
